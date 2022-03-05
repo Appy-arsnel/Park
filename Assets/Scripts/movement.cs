@@ -28,7 +28,7 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update () {
  
-        yRot += Input.GetAxis("Mouse X") * mouseSensitivity;
+        yRot += Input.GetAxis("Mouse Y") * mouseSensitivity;
         transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, yRot, transform.localEulerAngles.z);
  
         isMoving = false;
