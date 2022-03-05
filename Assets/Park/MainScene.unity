@@ -1104,7 +1104,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100006, guid: 92bad9ac7bb39fa4d9ce8fc2d181f64f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 92bad9ac7bb39fa4d9ce8fc2d181f64f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5663,7 +5663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &864885925
 Transform:
   m_ObjectHideFlags: 0
@@ -8057,7 +8057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e3ef8b51e0e6e11c989fdc3af7ccb305, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3ef8b51e0e6e11c989fdc3af7ccb305, type: 3}
@@ -8115,11 +8115,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22faf72e90879960c8fca29307aabd71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  sprintSpeed: 4
-  walkSpeed: 2
-  mouseSensitivity: 2
-  jumpHeight: 3
+  _speed: 7
+  _mouseSensitivity: 50
+  _minCameraview: -70
+  _maxCameraview: 80
 --- !u!1 &1328656662
 GameObject:
   m_ObjectHideFlags: 0
