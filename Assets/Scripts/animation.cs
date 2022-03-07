@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class animation : MonoBehaviour
 {
- public InputController InputController;
     Animator anim;
     private float inputH;
     private float inputV;
-    [SerializeField] Playeraim playeraim;
 
     
     // Start is called before the first frame update
@@ -20,7 +18,7 @@ public class animation : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {/*
         anim.SetFloat("Horizontal",InputController.Horizontal);
         anim.SetFloat("Vertical", InputController.Vertical);
         anim.SetBool("isWalking", InputController.isWalking);
@@ -28,7 +26,7 @@ public class animation : MonoBehaviour
         anim.SetBool("isJumping", InputController.isJumping);
         anim.SetBool("isCrouched", InputController.isCrouched);
         anim.SetBool("isAiming", InputController.Fire1);
-        anim.SetFloat("Aimangle", playeraim.GetAngle());
+        anim.SetFloat("Aimangle", playeraim.GetAngle());*/
     }
 
 

@@ -670,6 +670,25 @@ CapsuleCollider:
   m_Height: 5
   m_Direction: 1
   m_Center: {x: 0, y: 2, z: 0}
+--- !u!95 &1681161172
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681161168}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: e3ef8b51e0e6e11c989fdc3af7ccb305, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1021abb3882616df4bbba0ea2b94bd8f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!143 &1681161173
 CharacterController:
   m_ObjectHideFlags: 0
