@@ -19,7 +19,7 @@ public class animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {/*
-        anim.SetFloat("Horizontal",InputController.Horizontal);
+        anim.SetFloat("isWalking",InputController.Horizontal);
         anim.SetFloat("Vertical", InputController.Vertical);
         anim.SetBool("isWalking", InputController.isWalking);
         anim.SetBool("isSprint", InputController.isSpriting);
